@@ -8,7 +8,7 @@ def subcribe(func):
     async def wrapper(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
-        rpk = "[" + user_name + "]" + str(user_id) + ")"
+        rpk = "[ + user_name + ]"
         if not MUST_JOIN:  # Not compulsory
             return
         try:
@@ -22,7 +22,7 @@ def subcribe(func):
                     chat_info.invite_link
                 try:
                     await message.reply(
-                        f"**Hallo Kak {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel, Setelah itu silahkan Play Musik/Video Kamu**",
+                        f"Hallo Kak {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel, Setelah itu silahkan Play Musik/Video Kamu",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[InlineKeyboardButton("Join Channel", url=sun)]]
