@@ -24,13 +24,8 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", "")
 
-# Your User ID.
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1441342342").split())
-
-# JANGAN HAPUS YA KONTOL
-OWNER_ID.append(5089916692)
-OWNER_ID.append(1938616056)
+# Get this value from @FallenxBot on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", 1441342342))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
