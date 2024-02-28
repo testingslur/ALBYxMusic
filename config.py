@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # MUST JOIN
-MUST_JOIN = getenv("MUST_JOIN", "")
+MUST_JOIN = getenv("MUST_JOIN", "ruangdiskusikami")
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 1441342342))
