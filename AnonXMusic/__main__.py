@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
+        LOGGER(__name__).error("Tidak Ada Asisten Klien yang Ditentukan Vars!.. Proses Keluar.")
         exit()
     await sudo()
     try:
@@ -43,7 +43,7 @@ async def init():
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("AnonXMusic").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+            "[ERROR] - \n\nHarap aktifkan Obrolan Suara Grup Logger Anda.  Pastikan Anda tidak pernah menutup/mengakhiri obrolan suara di grup log Anda.."
         )
         exit()
     except:
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AnonXMusic").info("Stopping AnonX Music Bot...")
+    LOGGER("AnonXMusic").info("Stopping Music Bot...")
 
 
 if __name__ == "__main__":
