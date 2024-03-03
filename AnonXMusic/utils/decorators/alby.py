@@ -8,7 +8,7 @@ def subcribe(func):
     async def wrapper(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
-        rpk = "[ + user_name + ]"
+        rpk = "[" + user_name + "]"
         if not MUST_JOIN:  # Not compulsory
             return
         try:
