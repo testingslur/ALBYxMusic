@@ -164,7 +164,7 @@ str_3: "Gagal menyiarkan streaming langsung dari YouTube, format langsung tidak 
 ping_1 : "{0} ɪs ᴘɪɴɢɪɴɢ..."
 ping_2 : "🏓 ᴩᴏɴɢ : <code>{0}ᴍs</code>\n\n<b><u>{1} sʏsᴛᴇᴍ sᴛᴀᴛs :</u></b>\n\n↬ ᴜᴩᴛɪᴍᴇ : {2}\n↬ ʀᴀᴍ : {3}\n↬ ᴄᴩᴜ : {4}\n↬ ᴅɪsᴋ : {5}\n↬ ᴩʏ-ᴛɢᴄᴀʟʟs : <code>{6}ᴍs</code>"
 
-queue_1 : "» Mohon Tunggu Sebentar ya kak...\n\Sedang mengecek Antriannya..."
+queue_1 : "» Mohon Tunggu Sebentar ya kak...\nSedang mengecek Antriannya..."
 queue_2 : "» Tidak ada Antrian 😔."
 queue_3 : "<u>» Trek Antrian :</u> <a href={0}>Klik Disini untuk melihat semua antrian</a>"
 queue_4 : "➲ <b>⏳ Ditambahkan ke Antrian di  #{0}\n\n📀 Judul :</b> {1}\n<b>⏰ Durasi :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>🧸 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}"
