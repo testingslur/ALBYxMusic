@@ -25,7 +25,7 @@ def subcribe(func):
                         f"Hallo Kak {rpk}. Agar Bisa Menggunakan Bot Anda Harus Masuk Ke Channel Terlebih Dahulu!. Silahkan Klik Tombol Di Bawah Untuk Join Ke Channel, Setelah itu silahkan Play Musik/Video Kamu",
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
-                            [[InlineKeyboardButton("Join Channel", url=sun)]]
+                            [[InlineKeyboardButton("Join Channel", url="https://t.me/MT_Force")]]
                         ),
                     )
                     await message.stop_propagation()
